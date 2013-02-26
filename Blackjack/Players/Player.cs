@@ -57,6 +57,11 @@ namespace Blackjack.Players
                 }
             }
 
+            if (hand.Count == 2 && ((hand[0].Value == CardValue.Ace && (int)hand[1].Value >= 10) || (hand[1].Value == CardValue.Ace && (int)hand[0].Value >= 10)))
+            {
+                return 21;
+            }
+
             if (myScore > 21)
             {
                 Busted = true;

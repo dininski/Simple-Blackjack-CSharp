@@ -4,6 +4,8 @@ using Blackjack.Players;
 using System.Collections.Generic;
 using System.Text;
 
+//public static delegate int GetScore(List<Card> cards);
+
 namespace Blackjack.GameManager
 {
     public class Manager
@@ -11,15 +13,22 @@ namespace Blackjack.GameManager
         private Deck playingDeck = new Deck();
         private List<Player> players = new List<Player>();
         private List<int> playerScores = new List<int>();
-
         private Player dealer = new Player();
         public bool Playing { get; set; }
-        //show only one of the dealer's cards
+
         public Card DealerVisibleCard
         {
             get
             {
                 return dealer.ShowHand()[0];
+            }
+        }
+
+        public Card DealerLastCard
+        {
+            get
+            {
+                return dealer.ShowHand()[dealer.ShowHand().Count-1];
             }
         }
 
@@ -36,34 +45,29 @@ namespace Blackjack.GameManager
         public Manager(Player player1)
         {
             players.Add(player1);
-            playerScores.Add(0);
         }
 
-        public Manager(Player player1, Player player2)
-            : this(player1)
-        {
-            players.Add(player2);
-            playerScores.Add(0);
-        }
+        //public Manager(Player player1, Player player2)
+        //    : this(player1)
+        //{
+        //    players.Add(player2);
+        //}
 
-        public Manager(Player player1, Player player2, Player player3)
-            : this(player1, player2)
-        {
-            players.Add(player3);
-            playerScores.Add(0);
-        }
+        //public Manager(Player player1, Player player2, Player player3)
+        //    : this(player1, player2)
+        //{
+        //    players.Add(player3);
+        //}
 
-        public Manager(Player player1, Player player2, Player player3, Player player4)
-            : this(player1, player2, player3)
-        {
-            players.Add(player4);
-            playerScores.Add(0);
-        }
+        //public Manager(Player player1, Player player2, Player player3, Player player4)
+        //    : this(player1, player2, player3)
+        //{
+        //    players.Add(player4);
+        //}
 
         public void AddPlayer(Player newPlayer)
         {
             players.Add(newPlayer);
-            playerScores.Add(0);
         }
 
         public void DealFirstTwoCards()
@@ -114,16 +118,13 @@ namespace Blackjack.GameManager
                 score = -1;
             }
 
-            return score;
-        }
-
-        public void CalculateScores()
-        {
-            for (int i = 0; i < players.Count; i++)
+            //Blackjack returns 0
+            if (cards.Count == 2 && ((cards[0].Value == CardValue.Ace && (int)cards[1].Value >= 10) || (cards[1].Value == CardValue.Ace && (int)cards[0].Value >= 10)))
             {
-                List<Card> currentPlayerHand = players[i].ShowHand();
-                playerScores[i] = GetHandScore(currentPlayerHand);
+                return 0;
             }
+
+            return score;
         }
 
         public string DisplayScores()
