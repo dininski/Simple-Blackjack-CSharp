@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blackjack", "ClassLibrary1\Blackjack.csproj", "{D6D45ACE-E177-4101-BAD0-91F156785EE5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blackjack", "Blackjack\Blackjack.csproj", "{D6D45ACE-E177-4101-BAD0-91F156785EE5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blackjack.Console", "Blackjack.Console\Blackjack.Console.csproj", "{0D66DD6C-7E13-47BB-B5F5-97E33396B882}"
 EndProject
