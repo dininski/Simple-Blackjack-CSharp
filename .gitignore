@@ -1,0 +1,8 @@
+*\bin
+*\obj
+*\Properties
+*\TestResults
+*.suo
+*.config
+*.ldf
+*.mdf

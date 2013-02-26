@@ -1,0 +1,1 @@
+A simple client - server Blackjack game, developed using C#
