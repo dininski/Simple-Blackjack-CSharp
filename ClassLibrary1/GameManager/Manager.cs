@@ -13,7 +13,7 @@ namespace Blackjack.GameManager
         private List<int> playerScores = new List<int>();
 
         private Player dealer = new Player();
-
+        public bool Playing { get; set; }
         //show only one of the dealer's cards
         public Card DealerVisibleCard
         {
@@ -23,9 +23,14 @@ namespace Blackjack.GameManager
             }
         }
 
+        public List<Card> getDealerCards()
+        {
+            return dealer.ShowHand();
+        }
+
         public Manager()
         {
-
+            Playing = false;
         }
 
         public Manager(Player player1)
@@ -131,9 +136,14 @@ namespace Blackjack.GameManager
             return showScores.ToString();
         }
 
-        public string GetDealerScore()
+        public void GiveDealerACard()
         {
-            return dealer.GetScore().ToString();
+            dealer.HitMe(playingDeck.DealCard());
+        }
+
+        public int GetDealerScore()
+        {
+            return dealer.GetScore();
         }
     }
 }

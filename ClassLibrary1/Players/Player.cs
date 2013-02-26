@@ -10,6 +10,13 @@ namespace Blackjack.Players
         private List<Card> hand = new List<Card>();
         private int myScore;
 
+        public bool Busted { get; set; }
+
+        public Player()
+        {
+            Busted = false;
+        }
+
         public void HitMe(Card dealtCard)
         {
             hand.Add(dealtCard);
@@ -18,6 +25,11 @@ namespace Blackjack.Players
         public List<Card> ShowHand()
         {
             return hand;
+        }
+
+        public Card LastCard()
+        {
+            return hand[hand.Count-1];
         }
 
         public string ShoutHand()
@@ -44,12 +56,19 @@ namespace Blackjack.Players
                     myScore += 10;
                 }
             }
+
+            if (myScore > 21)
+            {
+                Busted = true;
+            }
+
             return myScore;
         }
 
         public void ThrowCards()
         {
             hand.Clear();
+            Busted = false;
         }
     }
 }
