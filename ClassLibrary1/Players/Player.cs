@@ -29,5 +29,27 @@ namespace Blackjack.Players
             }
             return handString.ToString();
         }
+
+        public int GetScore()
+        {
+            myScore = 0;
+            for (int i = 0; i < hand.Count; i++)
+            {
+                if ((int)hand[i].Value < 10)
+                {
+                    myScore += (int)hand[i].Value;
+                }
+                else
+                {
+                    myScore += 10;
+                }
+            }
+            return myScore;
+        }
+
+        public void ThrowCards()
+        {
+            hand.Clear();
+        }
     }
 }

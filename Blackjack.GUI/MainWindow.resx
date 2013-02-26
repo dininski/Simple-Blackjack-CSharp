@@ -118,20 +118,74 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="SecondCard.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAEcAAABgBAMAAAC9N3KiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAwUExURQAAAAAAgACAAICAgP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ3D
-        N2kAAAAJcEhZcwAACnQAAAp0AZhiPxkAAABkSURBVEjH7ZexCcAwDAQFyQKBDOBVhLX/TG4MaZKXBCnv
+        N2kAAAAJcEhZcwAACnMAAApzAcommWYAAABkSURBVEjH7ZexCcAwDAQFyQKBDOBVhLX/TG4MaZKXBCnv
         3R6vK/02LM2wI7JMszOFogxdOncDkrd8Q66KHig+n/eaQlXhhBNOOOGEE0444YQTTm9OBaj0/ddpQH8t
         oNLgqky3BYZ2vP4n4mBqAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="pictureBox1.InitialImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="SecondCard.InitialImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAEcAAABgBAMAAAC9N3KiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAwUExURQAAAAAAgACAAICAgP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ3D
-        N2kAAAAJcEhZcwAACnQAAAp0AZhiPxkAAABkSURBVEjH7ZexCcAwDAQFyQKBDOBVhLX/TG4MaZKXBCnv
+        N2kAAAAJcEhZcwAACnMAAApzAcommWYAAABkSURBVEjH7ZexCcAwDAQFyQKBDOBVhLX/TG4MaZKXBCnv
+        3R6vK/02LM2wI7JMszOFogxdOncDkrd8Q66KHig+n/eaQlXhhBNOOOGEE0444YQTTm9OBaj0/ddpQH8t
+        oNLgqky3BYZ2vP4n4mBqAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="FirstCard.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEcAAABgBAMAAAC9N3KiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAwUExURQAAAAAAgACAAICAgP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ3D
+        N2kAAAAJcEhZcwAACnMAAApzAcommWYAAABkSURBVEjH7ZexCcAwDAQFyQKBDOBVhLX/TG4MaZKXBCnv
+        3R6vK/02LM2wI7JMszOFogxdOncDkrd8Q66KHig+n/eaQlXhhBNOOOGEE0444YQTTm9OBaj0/ddpQH8t
+        oNLgqky3BYZ2vP4n4mBqAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="FirstCard.InitialImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEcAAABgBAMAAAC9N3KiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAwUExURQAAAAAAgACAAICAgP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ3D
+        N2kAAAAJcEhZcwAACnMAAApzAcommWYAAABkSURBVEjH7ZexCcAwDAQFyQKBDOBVhLX/TG4MaZKXBCnv
+        3R6vK/02LM2wI7JMszOFogxdOncDkrd8Q66KHig+n/eaQlXhhBNOOOGEE0444YQTTm9OBaj0/ddpQH8t
+        oNLgqky3BYZ2vP4n4mBqAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="dealerInisibleCard.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEcAAABgBAMAAAC9N3KiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAwUExURQAAAAAAgACAAICAgP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ3D
+        N2kAAAAJcEhZcwAACnMAAApzAcommWYAAABkSURBVEjH7ZexCcAwDAQFyQKBDOBVhLX/TG4MaZKXBCnv
+        3R6vK/02LM2wI7JMszOFogxdOncDkrd8Q66KHig+n/eaQlXhhBNOOOGEE0444YQTTm9OBaj0/ddpQH8t
+        oNLgqky3BYZ2vP4n4mBqAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="dealerInisibleCard.InitialImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEcAAABgBAMAAAC9N3KiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAwUExURQAAAAAAgACAAICAgP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ3D
+        N2kAAAAJcEhZcwAACnMAAApzAcommWYAAABkSURBVEjH7ZexCcAwDAQFyQKBDOBVhLX/TG4MaZKXBCnv
+        3R6vK/02LM2wI7JMszOFogxdOncDkrd8Q66KHig+n/eaQlXhhBNOOOGEE0444YQTTm9OBaj0/ddpQH8t
+        oNLgqky3BYZ2vP4n4mBqAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="dealerVisibleCard.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEcAAABgBAMAAAC9N3KiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAwUExURQAAAAAAgACAAICAgP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ3D
+        N2kAAAAJcEhZcwAACnMAAApzAcommWYAAABkSURBVEjH7ZexCcAwDAQFyQKBDOBVhLX/TG4MaZKXBCnv
+        3R6vK/02LM2wI7JMszOFogxdOncDkrd8Q66KHig+n/eaQlXhhBNOOOGEE0444YQTTm9OBaj0/ddpQH8t
+        oNLgqky3BYZ2vP4n4mBqAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="dealerVisibleCard.InitialImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEcAAABgBAMAAAC9N3KiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAwUExURQAAAAAAgACAAICAgP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ3D
+        N2kAAAAJcEhZcwAACnMAAApzAcommWYAAABkSURBVEjH7ZexCcAwDAQFyQKBDOBVhLX/TG4MaZKXBCnv
         3R6vK/02LM2wI7JMszOFogxdOncDkrd8Q66KHig+n/eaQlXhhBNOOOGEE0444YQTTm9OBaj0/ddpQH8t
         oNLgqky3BYZ2vP4n4mBqAAAAAElFTkSuQmCC
 </value>

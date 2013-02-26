@@ -80,6 +80,17 @@ namespace Blackjack.GameManager
             return playingDeck.DealCard();
         }
 
+        public void StartNewDeal()
+        {
+            playingDeck = new Deck();
+            for (int i = 0; i < players.Count; i++)
+            {
+                players[i].ThrowCards();
+                dealer.ThrowCards();
+            }
+            DealFirstTwoCards();
+        }
+
         private int GetHandScore(List<Card> cards)
         {
             int score = 0;
@@ -118,6 +129,11 @@ namespace Blackjack.GameManager
                 showScores.AppendLine(String.Format("Player {0} score: {1}", i, playerScores[i]));
             }
             return showScores.ToString();
+        }
+
+        public string GetDealerScore()
+        {
+            return dealer.GetScore().ToString();
         }
     }
 }
